@@ -17,9 +17,9 @@ MEDIA_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg"}
 MAX_FILE_SIZE_MB = 10
 
 # Файлы, которые лежат в корне и не подчиняются правилам
-SYSTEM_FILES = {"readme.md", "contributing.md", ".gitignore", "license", "license.md"}
+SYSTEM_FILES = {"README.md", "CONTRIBUTING.md", ".gitignore", "license", "license.md"}
 # При изменении этих файлов будем писать Warning
-WARNING_FILES = {".gitignore", "contributing.md"}
+WARNING_FILES = {".gitignore", "CONTRIBUTING.md"}
 
 
 def has_unclosed_code_blocks(text):
